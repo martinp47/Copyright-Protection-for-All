@@ -1,5 +1,7 @@
 # Copyright Protection for All
-**Resolving Disputes in the Fair Trade Music Model**
+```
+Resolving Disputes in the Fair Trade Music Model
+```
 
    * [2 Minute Video](#2-minute-video)
    * [Music](#music)
