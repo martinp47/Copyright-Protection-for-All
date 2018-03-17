@@ -14,7 +14,7 @@ Resolving Disputes in the Fair Trade Music Model
    * [The Dispute Resolution Process](#the-dispute-resolution-process)
 
 # 2 Minute Video
-[![Copyright Protection for All video](http://img.youtube.com/vi/IBMa7vf2e7c&t=35s/0.jpg)](http://www.youtube.com/watch?v=IBMa7vf2e7c&t=35s)
+[Copyright Protection for All video](http://www.youtube.com/watch?v=IBMa7vf2e7c&t=35s)
 
 # Music
 PeaceTones music
