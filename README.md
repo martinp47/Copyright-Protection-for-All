@@ -22,6 +22,7 @@ Resolving Disputes in the Fair Trade Music Model
 
 # 2 Minute Video
 [Copyright Protection for All video](http://www.youtube.com/watch?v=IBMa7vf2e7c&t=35s)
+[Copyright Protection for All final video](https://www.youtube.com/watch?v=WrCXUJBOx1g&feature=youtu.be)
 
 # Code
 For this hackathon, the team is using the [Hyperledger](https://www.hyperledger.org/) project. You can find the code for this project in the following repositories:
