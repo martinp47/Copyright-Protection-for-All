@@ -13,6 +13,7 @@ Resolving Disputes in the Fair Trade Music Model
    * [The Dispute](#the-dispute)
    * [The Dispute Resolution Process](#the-dispute-resolution-process)
    * [Resolution](#resolution)
+   * [Smart Contract Overview](#smart-contract-overview)
 
 # Who We Are
 * [PeaceTones](https://peacetones.org)
@@ -85,3 +86,24 @@ Following the eJust framework, dispute resolution proceedings are divided in fou
   * Optional: If a party does not execute the award; the award can be enforced
 # Resolution
 The Arbitrator concluded that the terms of the Smart Contract are clear and should be enforced. The Agent is ordered to compensate Emmanuel the full amount he has received from the advertiser for the additional ads incorporating the song. Emmanuel is paid $750 -- $250 per additional ad.
+
+# Smart Contract Overview
+The smart contracts and all the code is available on the attibuted github repositories listed above. In short, two smart contracts exist with their associated unit tests.
+
+## Validation of Person
+The first smart contracts ensures that people added to the network meet the requirements to ensure trustability. The process is as follows.
+
+An organization assigns someone, within said organization, to validate people and add them to the network. The smart contract will ensure that the assigned person (to add people to the network) is considered 'real' by the network. Additionally, the contract will ensure that the organization, the person is assigned to, is a 'trusted' organization. In the event that the person adding someone to the network is not considered 'real' or the organization is not 'trusted' then the transaction fails and the new person is not added to the network.
+
+## Selling A Song On The Network
+Organizations may sell songs on behalf of an artist. Artists may also sell a song themselves. The smart contract ensures that all the criteria for a sale is met as well as ensuring payment.
+
+For example, PeaceTones&reg; is able to sell Emmanuels song. In so doing, both parties agree that PeaceTones&reg; will recieve 10% for each sale. The smart contract, in this situation, will pay Emmanuel 90% and PeaceTones&reg; 10%.
+
+No sale is made in the event that the buyer does not have sufficent funds availble.
+
+Once the song is sold, a record is created on the block chain called LicensedSong. This object will have all the information required to ensure protection for the consumer, PeaceTones&reg; and, most importantly, Emmanuel.
+
+Note that at the time off sale, a license is applied to the sale. The current implementation supports a license type of 'COMMERCIAL_USE' and one for 'PERSONAL_USE'. The details of these licenses are not flushed out in the POC, however, they highlight the systems capabilities when it comes to dispute resolution. For example, should someone buy a song for 'PERSONAL_USE' but Emmanuel finds out it is being used commercially he would be able to file a dispute and all the facts would be easily retrieval on the blockchain.
+
+In summary, this smart contract showcases the use cases to ensure fair payment as well as protecting the artist through the application of 'cementing' licensing agreements directly on the blockchain to ensure protection for Emmanuel.
