@@ -4,14 +4,15 @@ Resolving Disputes in the Fair Trade Music Model
 ```
 
    * [2 Minute Video](#2-minute-video)
-   * [Music](#music)
    * [Code](#code)
    * [Introduction](#introduction)
    * [Background](#background)
    * [RelateID](#relateid)
+   * [The Dispute Resolution Challenge](#the-dispute-resolution-challenge)
    * [The Smart Contract – License Assigned](#the-smart-contract--license-assigned)
    * [The Dispute](#the-dispute)
    * [The Dispute Resolution Process](#the-dispute-resolution-process)
+   * [Resolution](#resolution)
 
 # Who We Are
 * [PeaceTones](https://peacetones.org)
@@ -20,9 +21,6 @@ Resolving Disputes in the Fair Trade Music Model
 
 # 2 Minute Video
 [Copyright Protection for All video](http://www.youtube.com/watch?v=IBMa7vf2e7c&t=35s)
-
-# Music
-PeaceTones music
 
 # Code
 For this hackathon, the team is using the [Hyperledger](https://www.hyperledger.org/) project. You can find the code for this project in the following repositories:
